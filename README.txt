@@ -2,6 +2,11 @@
 Java Academy Technical Task
 ============================
 
+====================================
+Note: this project is written with openjdk 16 2021-03-16
+Java version in pom.xml is set to 16
+====================================
+
 Table of Contents
 
 1. Project idea
