@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.controllers.MainScreenController">
+   <top>
+      <Label styleClass="headerLabel" text="Java Academy Technical Task" BorderPane.alignment="CENTER" />
+   </top>
+   <stylesheets>
+      <URL value="@../css/style.css" />
+      <URL value="@../css/main_screen.css" />
+   </stylesheets>
+   <center>
+      <TableView fx:id="resultsTableView" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <columns>
+            <TableColumn fx:id="lettersInGroupColumn" prefWidth="131.99997556209564" text="Letters in group" />
+            <TableColumn fx:id="wordLengthColumn" prefWidth="89.5999755859375" text="Word length" />
+            <TableColumn fx:id="frequencyColumn" minWidth="4.0" prefWidth="79.20001220703125" text="Frequency" />
+            <TableColumn fx:id="exactValueColumn" minWidth="0.0" prefWidth="112.79998779296875" text="Exact Value" />
+         </columns>
+      </TableView>
+   </center>
+   <bottom>
+      <HBox id="footerContainer" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label id="totalLabel" fx:id="totalLabel" text="Label" />
+            <Button id="nextResultButton" fx:id="nextResultButton" mnemonicParsing="false" onAction="#setNextResult" text="Next result" />
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>

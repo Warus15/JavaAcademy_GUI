@@ -1,0 +1,66 @@
+HBox {
+  -fx-min-width: 500;
+  -fx-pref-width: 500;
+  -fx-max-width: 500;
+
+  -fx-min-height: 50;
+  -fx-pref-height: 50;
+  -fx-max-height: 50;
+
+  -fx-spacing: 10;
+  -fx-alignment: center;
+}
+
+.mainContainer {
+  -fx-alignment: center;
+  -fx-spacing: 20;
+}
+
+.infoContainer {
+  -fx-min-width: 600;
+  -fx-pref-width: 600;
+  -fx-max-width: 600;
+
+  -fx-min-height: 100;
+  -fx-pref-height: 100;
+  -fx-max-height: 100;
+
+  -fx-padding: 20 0 0 0;
+
+  -fx-spacing: 10;
+  -fx-alignment: center_left;
+}
+
+.informLabel {
+  -fx-font-size: 18;
+}
+
+#filePathLabel {
+  -fx-font-size: 15;
+}
+
+TextField {
+  -fx-min-width: 150;
+  -fx-pref-width: 150;
+  -fx-max-width: 150;
+
+  -fx-min-height: 25;
+  -fx-pref-height: 25;
+  -fx-max-height: 25;
+
+  -fx-text-fill: white;
+  -fx-background-color: #313131;
+}
+
+#selectFileButton {
+  -fx-background-color: linear-gradient(#dc9656, #ab4642);
+}
+
+#startButton {
+  -fx-background-color: linear-gradient(#12863b, #1a6834);
+}
+
+#errorLabel {
+  -fx-text-fill: crimson;
+  -fx-font-size: 20;
+}
