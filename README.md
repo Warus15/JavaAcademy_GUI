@@ -25,7 +25,7 @@ There are no special assumptions other than the given. In the first screen user 
 
 Project is written in Java and uses Maven for required dependencies and packaging into JAR file. GUI was made in JavaFX with FXML and CSS.
 
-4.Project structure
+4. Project structure
 
 Main JAR file is located at target directory and is named "JavaAcademy_GUI-1.0-SNAPSHOT-shaded.jar"
 In the target directory there's also Launchet.bat, which is made to easily open the app.
