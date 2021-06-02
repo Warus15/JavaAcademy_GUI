@@ -14,25 +14,19 @@ Table of Contents
 3. Used technologies
 4. Project structure
 
-------------------------------
+---
 
 1. Project idea
 
 This project is technical task for Java Academy. Application has simple GUI to make it easy to use. User can enter keyword and data file to analyze. App accepts files with multiple line, and displays result one by one, after clicking "Next result" button.
 
-
-
 2. Assumptions
 
 There are no special assumptions other than the given. In the first screen user has to enter keyword (like "logic"), and choose a file with data that he wants to analyze. It doesn't matter whether data contain special characters or not, or whether there is an empty line between sentences.
 
-
-
 3. Used technologies
 
 Project is written in Java and uses Maven for required dependencies and packaging into JAR file. GUI was made in JavaFX with FXML and CSS.
-
-
 
 4.Project structure
 
@@ -45,10 +39,7 @@ Package fx has everything connected with JavaFX. App class is main class of the 
 
 Package task has all classed that are responsible for solving given problem.
 
-
-
 Main: class that calls run() method from App to open GUI
-
 
 fx.App: Class that is main class of the application. It is responsible for launching GUI. Also contains static method getWindow(), so that other classes may easily access stage.
 
@@ -59,7 +50,6 @@ fx.UserDataHolder: Singleton class used to store user data. With this approach d
 fx.controllers.StartScreenController: Controller for start screen. It contains logic of getting data from user.
 
 fx.controllers.MainScreenController: Controller for main screen with results. It implements Initializable interface, so the results are calculated right after entering the screen.
-
 
 task.Solution: This class contains whole logic of project. It is responsible for dividing words into groups, gathering results and sending them back to main screen.
 
