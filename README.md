@@ -1,8 +1,5 @@
-=====================
-Java Academy Technical Task
-=====================
+# Java Academy Technical Task
 
-===========================================================
 Note: this project is written with openjdk 16 2021-03-16
 Java version in pom.xml is set to 16
 ===========================================================
