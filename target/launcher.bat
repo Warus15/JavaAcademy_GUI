@@ -1,1 +1,0 @@
-java -jar JavaAcademy_GUI-1.0-SNAPSHOT-shaded.jar
