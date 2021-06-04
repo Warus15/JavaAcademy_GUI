@@ -116,7 +116,7 @@ public class Solution {
     }
 
     //This method gets result record from each group
-    //Then array list is sorted from the lowest to the highest freuquency
+    //Then array list is sorted from the lowest to the highest frequency
     private void listGroups(){
         for(WordGroup g : wordGroups)
             results.add(g.getResult());

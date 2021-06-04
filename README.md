@@ -2,18 +2,24 @@
 
 Note: this project is written with openjdk 16 2021-03-16
 Java version in pom.xml is set to 16
+
+After running tests on macOS and Linux (elementary OS) i found out that JFX has problem with running in these environments.
+If You use macOS or Linux, please take a look at the console version of this project, which contains only algorithm that solves given problem.
+
+The console version can be found here: https://github.com/Warus15/JavaAcademy
+
 ===========================================================
 
 Table of Contents
 
-1. Project idea
+1. Project overview
 2. Assumptions
 3. Used technologies
 4. Project structure
 
 ---
 
-1. Project idea
+1. Project overview
 
 This project is technical task for Java Academy. Application has simple GUI to make it easy to use. User can enter keyword and data file to analyze. App accepts files with multiple line, and displays result one by one, after clicking "Next result" button.
 
@@ -34,7 +40,7 @@ Project contains Main class and two main packages.
 
 Package fx has everything connected with JavaFX. App class is main class of the application. UserData represents data chosen by the user in start screen. UserDataHolder is Singleton class that is responsible to store user data, in order to access them in the main screen.
 
-Package task has all classed that are responsible for solving given problem.
+Package task has all classes that are responsible for solving given problem.
 
 Main: class that calls run() method from App to open GUI
 
