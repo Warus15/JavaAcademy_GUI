@@ -27,7 +27,7 @@ This project is technical task for Java Academy. Application has simple GUI to m
 
 There are no special assumptions other than the given. In the first screen user has to enter keyword (like "logic"), and choose a file with data that he wants to analyze. It doesn't matter whether data contain special characters or not, or whether there is an empty line between sentences.
 
-Note that if sentence doesn't contain key characters, the TableView will be empty, but there will be total frequency 0.0 at the bottom.
+Note, that if sentence doesn't contain key characters, the TableView will be empty, but there will be total frequency 0.0 at the bottom.
 
 3. Used technologies
 
